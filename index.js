@@ -66,7 +66,7 @@ const app = express();
 //   credentials: true,
 // }));
 app.use(cors({
-  origin: "https://employee-api-olive.vercel.app",
+  origin: "		   https://employee-frontend-sand-two.vercel.app",
   credentials: true,
 }));
 
