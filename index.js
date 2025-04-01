@@ -61,8 +61,12 @@ connectTodatabase();
 const app = express();
 
 // CORS Configuration
+// app.use(cors({
+//   origin: process.env.CLIENT_URL || "https://employee-frontend-ebon.vercel.app",
+//   credentials: true,
+// }));
 app.use(cors({
-  origin: process.env.CLIENT_URL || "https://employee-frontend-ebon.vercel.app",
+  origin: "https://employee-api-olive.vercel.app",
   credentials: true,
 }));
 
